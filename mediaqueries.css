@@ -1,0 +1,8 @@
+@media screen and (max-width: 1200px) {
+    #navigator {
+        display: none;
+    }
+    #humburger-nav {
+        display: flex;
+    }
+}
