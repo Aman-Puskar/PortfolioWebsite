@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
-<body>
+<body id="body">
     <nav id="navigator">
         <div class="logo">Aman Puskar</div>
         <div>
             <ul class="nav-list">
                 <li><a href="#about">About</a></li>
-                <li><a href="#educaton">Education</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#certificates">Certificates</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -31,7 +31,7 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="togglemenu()">About</a></li>
-                <li><a href="#educaton" onclick="togglemenu()">Education</a></li>
+                <li><a href="#education" onclick="togglemenu()">Education</a></li>
                 <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
                 <li><a href="#certificates" onclick="togglemenu()">Certificates</a></li>
                 <li><a href="#contact" onclick="togglemenu()">Contact</a></li> 
@@ -62,8 +62,7 @@
             </div>
         </div>
     </section>
-
-    
+   
 <section id="about">
     <div class="about-pic">
         <img src="./materials/about me pic.jpg" alt="picture of about me">
@@ -73,18 +72,36 @@
         <h1 class="about-h1">About Me</h1>
         <div class="detail-container">
         <div class="about-text-detail">
-            <p>Hey! there, i am student of Noida Institute of Engineering and Technology persuing B tech degree in IT department.
+            <p>Hey! there, i am student of Noida Institute of Engineering and Technology pursuing B tech degree in IT department.
                 Truely passionate about coding and problem solving.Working with java programming language and trying to explore this tech world.
                 Having good experience of team work and also having leadership mindset to lead the team.</p>
         </div>
         <div class="arrow-pic">
-            <img src="./materials/Arrow down.png" class="arrow-down" onclick="location.href='./#educaton'" alt="icon to next section ">
+            <img src="./materials/Arrow down.png" class="arrow-down" onclick="location.href='./#education'" alt="icon to next section ">
             </div>
         
         </div>
     </div>
    
-</section>  
+</section> 
+
+<section id="education">
+    <div class="education-pic">
+        <img src="./materials/educaton.png" alt="pic of education">
+    </div>
+    <div class="education-text">
+        <p class="education-text-p1">More About My</p>
+        <h1 class="education-text-h1">Education</h1>
+        <div class="education-detail">
+            <div id="college" class="school"> college</div>
+            <div id="inter" class="school">inter school</div>
+            <div id="high" class="school">high school</div>
+        </div>
+    </div>
+</section>
+
+
+
     <script src="app.js"></script>
 </body>
 </html>

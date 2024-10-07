@@ -114,7 +114,7 @@ a:hover {
 
  }
  .humburger-icon.open span:first-child {
-    transform: rotate(45deg) translate(10px,5px);
+    transform: rotate(45deg) translate(10px, 5px);
  }
  .humburger-icon.open span:nth-child(2) {
     opacity: 0;
@@ -134,6 +134,7 @@ a:hover {
  .humburger-icon span:first-child {
     transform: none;
  }
+ 
 
  /*section */
  section {
@@ -275,4 +276,44 @@ a:hover {
     justify-content: space-between;
     align-items: end;
     /* gap: rem; */
+}
+
+/* Education */
+#education {
+   display: flex;
+    justify-content: center;
+
+    gap: 5rem;
+    height:90vh;
+}
+.education-pic {
+   display: flex;
+    height: 400px;
+    width: 400px;
+    margin:auto ;
+}
+.education-pic img {
+   border-radius: 0%;
+}
+.education-text-p1 {
+   align-self: center;
+   align-items: center;
+   
+}
+.education-text-h1 {
+   font-weight: 600;
+   font-size: 4rem;
+   margin-bottom: 8.5rem;
+
+}
+.education-detail {
+   display: flex;
+   justify-content: center;
+   gap: 15rem;
+   align-items: center;
+   
+}
+#college, #inter, #high {
+   text-align: center;
+   align-self: center;
 }
