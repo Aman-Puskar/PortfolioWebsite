@@ -76,7 +76,7 @@ a:hover {
     cursor: pointer;
 }
 .humburger-icon span {
-    width: 100px;
+    width: 50px;
     height: 2px;
     background-color: black;
     transition:all 0.3 ease-in-out ;
@@ -100,6 +100,11 @@ a:hover {
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
+.menu-links.open a:hover{
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
  .menu-links li {
     list-style: none;
  }
@@ -108,13 +113,13 @@ a:hover {
 
  }
  .humburger-icon.open span:first-child {
-    transform: rotate(45deg) translate(10px, 5px);
+    transform: rotate(45deg) translate(10px,5px);
  }
  .humburger-icon.open span:nth-child(2) {
     opacity: 0;
  }
  .humburger-icon.open span:last-child {
-    transform: rotate(-45deg) translate(10px, 5px);
+    transform: rotate(-45deg) translate(10px, -5px);
  }
 
 
