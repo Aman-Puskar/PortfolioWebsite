@@ -287,8 +287,8 @@ a:hover {
 #education {
    display: flex;
    justify-content: center;
-   flex-direction: row;
-   flex-wrap:wrap ;
+   /* flex-direction: row; */
+   /* flex-wrap:wrap ; */
     gap: 5rem;
     height:90vh;
 }
@@ -297,8 +297,8 @@ a:hover {
     height: 400px;
     width: 400px;
     justify-content: center;
-   flex-direction: row;
-   flex-wrap:wrap ;
+   /* flex-direction: row; */
+   /* flex-wrap:wrap ; */
    
     margin:auto ;
 }
@@ -320,8 +320,8 @@ a:hover {
    display: flex;
    justify-content: center;
    /* justify-content: center; */
-   flex-direction: row;
-   flex-wrap:wrap ;
+   /* flex-direction: row; */
+   /* flex-wrap:wrap ; */
    
    gap: 2rem;
    align-items: center;
