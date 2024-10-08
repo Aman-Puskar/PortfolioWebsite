@@ -309,11 +309,30 @@ a:hover {
 .education-detail {
    display: flex;
    justify-content: center;
-   gap: 15rem;
+   gap: 10rem;
    align-items: center;
    
 }
+.school {
+   border: black 0.1rem solid;
+   border-radius: 10px;
+}
 #college, #inter, #high {
+   
+   /* background-color: gray; */
+   /* width: 8rem; */
+}
+#college {
+   padding: 5px;
+}
+.college-p {
    text-align: center;
    align-self: center;
+   font-size:1.5rem;
+   font-weight: 600;
+
+}
+.college-details {
+   text-align: left;
+   align-self: self-start;
 }
